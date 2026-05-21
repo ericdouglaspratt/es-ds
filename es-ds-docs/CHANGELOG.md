@@ -1,5 +1,66 @@
 # Changelog
 
+## [6.0.0](https://github.com/ericdouglaspratt/es-ds/compare/es-ds-docs-v5.5.0...es-ds-docs-v6.0.0) (2026-05-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* telephone input mask no longer allows cursor to get stuck ([#1708](https://github.com/ericdouglaspratt/es-ds/issues/1708))
+* update to nuxt 4 ([#1682](https://github.com/ericdouglaspratt/es-ds/issues/1682))
+
+### Features
+
+* add EsMenuBar, EsSkipToContentLink, EsColorBand ([#1746](https://github.com/ericdouglaspratt/es-ds/issues/1746)) ([3654c21](https://github.com/ericdouglaspratt/es-ds/commit/3654c218bac408b2d93568a788d285b323e460db))
+* add EsMobileNav ([#1722](https://github.com/ericdouglaspratt/es-ds/issues/1722)) ([29fcfad](https://github.com/ericdouglaspratt/es-ds/commit/29fcfada66e6386df1f58d10f783b29be416ec2e))
+* add prop to allow replacements in zip code form URL ([#1695](https://github.com/ericdouglaspratt/es-ds/issues/1695)) ([001feb5](https://github.com/ericdouglaspratt/es-ds/commit/001feb52b9bbfd84c31390449c0810517c726a6f))
+* added EsNavCtaCard for use in mobile/desktop navs ([#1723](https://github.com/ericdouglaspratt/es-ds/issues/1723)) ([74b3bbd](https://github.com/ericdouglaspratt/es-ds/commit/74b3bbd68c293b9606f9012b5d94ba1c06c60f59))
+* added EsStickyBar ([#1718](https://github.com/ericdouglaspratt/es-ds/issues/1718)) ([9940605](https://github.com/ericdouglaspratt/es-ds/commit/994060525ea5c8a04ff3abfdd593e01b5c304176))
+* added glow to progress bar to match designs ([#1732](https://github.com/ericdouglaspratt/es-ds/issues/1732)) ([a739702](https://github.com/ericdouglaspratt/es-ds/commit/a7397025c6cb0cfa742506227078753609ae57ab))
+* create es-dropdown ([#1642](https://github.com/ericdouglaspratt/es-ds/issues/1642)) ([bcf8860](https://github.com/ericdouglaspratt/es-ds/commit/bcf886075b0b6c9b2d0724616124b01a12a74550))
+* dropdown tweaks ([#1660](https://github.com/ericdouglaspratt/es-ds/issues/1660)) ([42ffeac](https://github.com/ericdouglaspratt/es-ds/commit/42ffeac51b89969cd55b936d744be598e769e1a5))
+* expose clear and openFilePicker methods on EsFileInput ([#1703](https://github.com/ericdouglaspratt/es-ds/issues/1703)) ([0b011ac](https://github.com/ericdouglaspratt/es-ds/commit/0b011acdeddff26df0c54e2651e883a9965bd61b))
+* IDR-1606 create es-toggle ([#1647](https://github.com/ericdouglaspratt/es-ds/issues/1647)) ([da6b3c2](https://github.com/ericdouglaspratt/es-ds/commit/da6b3c28585d7aaae7ef07d7f426405783e3f276))
+* improve our documentation slightly ([#1633](https://github.com/ericdouglaspratt/es-ds/issues/1633)) ([52a2e11](https://github.com/ericdouglaspratt/es-ds/commit/52a2e11da7c09211401bf5306f815e12a843cd46))
+* INS-3548 Add new empty template slot to es data table ([#1646](https://github.com/ericdouglaspratt/es-ds/issues/1646)) ([977db21](https://github.com/ericdouglaspratt/es-ds/commit/977db21e6ad58eeb8b4b25b2e99ca0b25cf15872))
+* update to nuxt 4 ([#1682](https://github.com/ericdouglaspratt/es-ds/issues/1682)) ([c01c5e8](https://github.com/ericdouglaspratt/es-ds/commit/c01c5e8b5aa98020d09145436b596ba231f09dd9))
+* update to Phosphor icon library ([#1689](https://github.com/ericdouglaspratt/es-ds/issues/1689)) ([78bd39b](https://github.com/ericdouglaspratt/es-ds/commit/78bd39b2e3325722bfa71e660961cba0de2766ed))
+
+
+### Bug Fixes
+
+* add li, increase cta spacing, remove more project cta icons ([#1751](https://github.com/ericdouglaspratt/es-ds/issues/1751)) ([7b8393d](https://github.com/ericdouglaspratt/es-ds/commit/7b8393d1b3e92d80706213524ab9ccdf3466a6da))
+* all current security vulnerabilities, increase node version, fix warnings ([#1728](https://github.com/ericdouglaspratt/es-ds/issues/1728)) ([8b4432a](https://github.com/ericdouglaspratt/es-ds/commit/8b4432ae1be67fb5e619ae9f011fd0bd3699540c))
+* another release fix ([#1741](https://github.com/ericdouglaspratt/es-ds/issues/1741)) ([d7401f6](https://github.com/ericdouglaspratt/es-ds/commit/d7401f6749d98a47cddaa2e33b121941126c56fb))
+* bug with EsProgress preventing height prop from being reactive ([#1680](https://github.com/ericdouglaspratt/es-ds/issues/1680)) ([7911846](https://github.com/ericdouglaspratt/es-ds/commit/79118462b8741946ce838cdd230b8469d4f449ca))
+* define value for dropdown option ([#1653](https://github.com/ericdouglaspratt/es-ds/issues/1653)) ([4dc706f](https://github.com/ericdouglaspratt/es-ds/commit/4dc706f88cc85f35a09c42e3cf06fea36f249b31))
+* ensure package-lock files get updated upon release; also manually bring current ones up to date ([#1649](https://github.com/ericdouglaspratt/es-ds/issues/1649)) ([53cf5ae](https://github.com/ericdouglaspratt/es-ds/commit/53cf5aeec419b7a050038172dec8cc1d8fb31655))
+* envName TypeScript error and CSP es-cdk upgrade ([#1714](https://github.com/ericdouglaspratt/es-ds/issues/1714)) ([d71a7e8](https://github.com/ericdouglaspratt/es-ds/commit/d71a7e84de28c521d6c18ae90c0c2146ee714ad4))
+* EsCollapse animation bug and arrow overlap issue ([#1698](https://github.com/ericdouglaspratt/es-ds/issues/1698)) ([a87aba7](https://github.com/ericdouglaspratt/es-ds/commit/a87aba7e47b0dffebadfefa43f0a7a3dfa6e074f))
+* EsFormRadioCards focus state is no longer applied on select/click ([#1711](https://github.com/ericdouglaspratt/es-ds/issues/1711)) ([c1ff4eb](https://github.com/ericdouglaspratt/es-ds/commit/c1ff4eb951d06d5de38ad35127adf4e7b8ca47c7))
+* fix dependency vulnerabilities reported by jit ([#1697](https://github.com/ericdouglaspratt/es-ds/issues/1697)) ([db13818](https://github.com/ericdouglaspratt/es-ds/commit/db13818d9e83593f06c49d774fd219e96f6702dd))
+* fix release workflow ([#1684](https://github.com/ericdouglaspratt/es-ds/issues/1684)) ([43eed7b](https://github.com/ericdouglaspratt/es-ds/commit/43eed7bee9e831f859197279c2ed3ea38c7d522e))
+* fresh es-ds-docs package-lock to maybe solve vite-plugin-checker issue ([#1743](https://github.com/ericdouglaspratt/es-ds/issues/1743)) ([0f3fed4](https://github.com/ericdouglaspratt/es-ds/commit/0f3fed490880a61cfe5c9ce8920e5ec522720a3c))
+* make trivial docs changes so that the release will actually happen this time ([#1737](https://github.com/ericdouglaspratt/es-ds/issues/1737)) ([ec23a98](https://github.com/ericdouglaspratt/es-ds/commit/ec23a98fe163c4b93b5b704989631ce34e978b7d))
+* more automated release and deploy issues ([#1674](https://github.com/ericdouglaspratt/es-ds/issues/1674)) ([383bf9e](https://github.com/ericdouglaspratt/es-ds/commit/383bf9e409047c3c10e93fa78d4643e702b07869))
+* more trivial changes, and update release-please-action ([#1739](https://github.com/ericdouglaspratt/es-ds/issues/1739)) ([261624a](https://github.com/ericdouglaspratt/es-ds/commit/261624a01d5ba9b86afc7ffa5407eda3794bfb4b))
+* open security vulnerabilities ([#1710](https://github.com/ericdouglaspratt/es-ds/issues/1710)) ([3ebd65a](https://github.com/ericdouglaspratt/es-ds/commit/3ebd65abe10eba46faa1ee911e87a213cdd6d035))
+* prevent optimize dependency warning for unused packages ([#1690](https://github.com/ericdouglaspratt/es-ds/issues/1690)) ([f7b2dbe](https://github.com/ericdouglaspratt/es-ds/commit/f7b2dbe0d3bfd7c987026c7fbc0558d9505cb01e))
+* revert "chore: revert "chore: upgrade nuxt"" ([#1669](https://github.com/ericdouglaspratt/es-ds/issues/1669)) ([b3c072d](https://github.com/ericdouglaspratt/es-ds/commit/b3c072dadd255d7a5a05d1215d8558ad1c0661f7))
+* same nanotar fix to es-ds-docs ([#1707](https://github.com/ericdouglaspratt/es-ds/issues/1707)) ([9bb2281](https://github.com/ericdouglaspratt/es-ds/commit/9bb22813546e0ab8c1409a476b234ce2803ff2f5))
+* security vulnerabilities ([#1716](https://github.com/ericdouglaspratt/es-ds/issues/1716)) ([e5c5dc2](https://github.com/ericdouglaspratt/es-ds/commit/e5c5dc22f555df58674bd46e4d5a6550f6a756d0))
+* security vulnerabilities in serialize-javascript and minimatch ([#1713](https://github.com/ericdouglaspratt/es-ds/issues/1713)) ([3a5e859](https://github.com/ericdouglaspratt/es-ds/commit/3a5e85954ca208a7e3a7f510ec04eca6a71ba92f))
+* telephone input mask no longer allows cursor to get stuck ([#1708](https://github.com/ericdouglaspratt/es-ds/issues/1708)) ([304cb42](https://github.com/ericdouglaspratt/es-ds/commit/304cb4248bb16fdd8910754413e482ed4697c06c))
+* update dependencies, update node, follow best practices ([#1734](https://github.com/ericdouglaspratt/es-ds/issues/1734)) ([5940e16](https://github.com/ericdouglaspratt/es-ds/commit/5940e160767f849729eefdc4ef163b3af5476142))
+* various build and release issues ([#1638](https://github.com/ericdouglaspratt/es-ds/issues/1638)) ([7d2e178](https://github.com/ericdouglaspratt/es-ds/commit/7d2e178b4bba2bdc089ea44b865b9c92444ee70a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @energysage/es-ds-components bumped from ^5.5.0 to ^6.0.0
+    * @energysage/es-ds-styles bumped from ^3.5.4 to ^3.6.0
+
 ## [5.5.0](https://github.com/EnergySage/es-ds/compare/es-ds-docs-v5.4.4...es-ds-docs-v5.5.0) (2026-05-18)
 
 
